@@ -12,6 +12,14 @@
   "repository": "https://github.com/TeamAlinaX/Flash",
   "website": "https://github.com/TeamAlinaX/Flash",
   "success_url": "https://t.me/AlinaXSupport",
+   "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
   "env": {
     "TOKEN": {
          "description": "Your bot token. Get one from @BotFather duh",
