@@ -1,17 +1,14 @@
 {
-  "name": "Flash",
-  "description": "Telegram Group Management Bot",
-  "logo": "https://te.legra.ph/file/7133f6b0b412834de9943.jpg",
-  "keywords": [
-    "telegram",
-    "anime",
-    "group",
-    "manager",
-    "flash",
-  ],
-  "repository": "https://github.com/TeamAlinaX/Flash",
-  "website": "https://github.com/TeamAlinaX/Flash",
-  "success_url": "https://t.me/AlinaXSupport",
+      "name": "Flash RoBot",
+      "description": "Telegram group management bot.",
+      "keywords": [
+         "telegram",
+         "anime",
+         "group",
+         "manager",
+         "Flash"
+      ],   
+   "repository": "https://github.com/TeamAlinaX/Flash",
    "addons": [
       {
          "options": {
@@ -20,8 +17,8 @@
          "plan": "heroku-postgresql"
       }
    ],
-  "env": {
-    "TOKEN": {
+   "env": {
+      "TOKEN": {
          "description": "Your bot token. Get one from @BotFather duh",
          "required": true,
          "value": ""
