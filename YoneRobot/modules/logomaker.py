@@ -34,13 +34,13 @@ async def lego(event):
     x = (image_widthz-w)/2
     y= ((image_heightz-h)/2+6)
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="yellow")
-    fname2 = "LogoByYone.png"
+    fname2 = "LogoByFlash.png"
     img.save(fname2, "png")
     await tbot.send_file(event.chat_id, fname2, caption="Made By YoneRobot")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Report @KoraSupport, {e}')
+   await event.reply(f'Error Report @AlinaXSupport, {e}')
 
 
 
@@ -74,13 +74,13 @@ async def lego(event):
     x = (image_widthz-w)/2
     y= ((image_heightz-h)/2+6)
     draw.text((x, y), text, font=font, fill="white", stroke_width=0, stroke_fill="white")
-    fname2 = "LogoByYone.png"
+    fname2 = "LogoByFlash.png"
     img.save(fname2, "png")
     await tbot.send_file(event.chat_id, fname2, caption="Made By YoneRobot")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Report @KoraSupport, {e}')
+   await event.reply(f'Error Report @AlinaXSupport, {e}')
 
 file_help = os.path.basename(__file__)
 file_help = file_help.replace(".py", "")
@@ -89,6 +89,9 @@ file_helpo = file_help.replace("_", " ")
 
 __help__ = """
  ❍ /logo text :  Create your logo with your name
+ ❍ /logo Alina ; RoBot :  use ; for write in next line
+
+ ❍ /wlogo text :  Create border logo with your name
 
  """
 __mod_name__ = "Logo"
