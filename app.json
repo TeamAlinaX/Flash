@@ -1,14 +1,15 @@
 {
-      "name": "YoneRobot",
+      "name": "Flash",
+      "logo": "https://te.legra.ph/file/7133f6b0b412834de9943.jpg"
       "description": "Telegram group management bot.",
       "keywords": [
          "telegram",
          "anime",
          "group",
          "manager",
-         "yone"
+         "flash"
       ],   
-   "repository": "https://t.me/itsMeLegend",
+   "repository": "https://github.com/TeamAlinaX/Flash",
    "addons": [
       {
          "options": {
